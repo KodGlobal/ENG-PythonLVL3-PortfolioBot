@@ -165,6 +165,6 @@ async def update_projects(ctx):
         manager.update_projects(attributes[attribute.content], (update_info, project_name.content, user_id))
         await ctx.send("All done! The project has been updated!")
     else:
-        await ctx.send('You do not have any projects yet!\nConsider adding one with the !new_project command?w')
+        await ctx.send('You do not have any projects yet!\nConsider adding one with the !new_project command?')
 
 bot.run(TOKEN)
